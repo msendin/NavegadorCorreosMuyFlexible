@@ -20,7 +20,7 @@ import androidx.fragment.app.Fragment;
 	
 	public void mostrarDetalle(String texto) {
 		TextView txtDetalle = 
-				(TextView)getView().findViewById(R.id.TxtDetalle);
+				getView().findViewById(R.id.TxtDetalle);
 		txtDetalle.setText(texto);
 	}
   }

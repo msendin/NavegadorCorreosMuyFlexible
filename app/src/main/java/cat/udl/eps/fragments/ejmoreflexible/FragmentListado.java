@@ -1,5 +1,6 @@
 package cat.udl.eps.fragments.ejmoreflexible;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -41,7 +42,7 @@ public class FragmentListado extends Fragment {
 	public void onActivityCreated(Bundle state) {
 		super.onActivityCreated(state);
 		
-		lstListado = (ListView)getView().findViewById(R.id.LstListado);
+		lstListado = getView().findViewById(R.id.LstListado);
 		
 		lstListado.setAdapter(new AdaptadorCorreos(this));
 		
@@ -78,15 +79,16 @@ public class FragmentListado extends Fragment {
     		super(fragmentListado.getActivity(), R.layout.listitem_correo, datos);
     		this.context = fragmentListado.getActivity();
     	}
-    	
-    	public View getView(int position, View convertView, ViewGroup parent) {
+
+    	@androidx.annotation.NonNull
+    	public View getView(int position, View convertView, @androidx.annotation.NonNull ViewGroup parent) {
 			LayoutInflater inflater = context.getLayoutInflater();
-			View item = inflater.inflate(R.layout.listitem_correo, null);
+			@SuppressLint("InflateParams") View item = inflater.inflate(R.layout.listitem_correo, null);
 			
-			TextView lblDe = (TextView)item.findViewById(R.id.LblDe);
+			TextView lblDe = item.findViewById(R.id.LblDe);
 			lblDe.setText(datos[position].getDe());
 			
-			TextView lblAsunto = (TextView)item.findViewById(R.id.LblAsunto);
+			TextView lblAsunto = item.findViewById(R.id.LblAsunto);
 			lblAsunto.setText(datos[position].getAsunto());
 			
 			return(item);

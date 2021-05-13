@@ -3,10 +3,15 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b65ef4e19f20cf47e11654755224012b/versionedparcelable-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b65ef4e19f20cf47e11654755224012b/versionedparcelable-1.0.0/res" />
+      <root url="file://$USER_HOME$/Desktop/MaterialClasses/ADM/Recursos/MyBasicApp/Portugues/caches/transforms-2/files-2.1/b65ef4e19f20cf47e11654755224012b/versionedparcelable-1.0.0/res" />
+      <root url="file://$USER_HOME$/Desktop/MaterialClasses/ADM/Recursos/MyBasicApp/Portugues/caches/transforms-2/files-2.1/8a307207b4b3d0ade95c96edfe7da61c/versionedparcelable-1.0.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/MaterialClasses/ADM/Recursos/MyBasicApp/Portugues/caches/transforms-2/files-2.1/b04f2c4be16ad067ab6c37b78b3c3324/versionedparcelable-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/MaterialClasses/ADM/Recursos/MyBasicApp/Portugues/caches/transforms-2/files-2.1/b04f2c4be16ad067ab6c37b78b3c3324/versionedparcelable-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/MaterialClasses/ADM/Recursos/MyBasicApp/Portugues/caches/transforms-2/files-2.1/b04f2c4be16ad067ab6c37b78b3c3324/versionedparcelable-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.0.0/df4c3c5d517f6a49017612e6b4dfdd007e7cc9b8/versionedparcelable-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/MaterialClasses/ADM/Recursos/MyBasicApp/Portugues/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.0.0/df4c3c5d517f6a49017612e6b4dfdd007e7cc9b8/versionedparcelable-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
