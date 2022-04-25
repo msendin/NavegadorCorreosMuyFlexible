@@ -22,13 +22,6 @@ public class MainActivity extends FragmentActivity implements CorreosListener {
 		    frgListado.setCorreosListener(this);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-
-		return true;
-	}
 
 	@Override
 	public void onCorreoSeleccionado(Correo c) {
@@ -43,6 +36,5 @@ public class MainActivity extends FragmentActivity implements CorreosListener {
 			i.putExtra(DetalleActivity.EXTRA_TEXTO, c.getTexto());
 			startActivity(i);
 		}
-		
 	}
 }
