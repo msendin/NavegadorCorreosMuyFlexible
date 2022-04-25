@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects.NavegadorCorreosMuyFlexible.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects.NavegadorCorreosMuyFlexible.iml" />
       <module fileurl="file://$PROJECT_DIR$/NavegadorCorreosMuyFlexible.iml" filepath="$PROJECT_DIR$/NavegadorCorreosMuyFlexible.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NavegadorCorreosMuyFlexible.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NavegadorCorreosMuyFlexible.app.iml" />
     </modules>

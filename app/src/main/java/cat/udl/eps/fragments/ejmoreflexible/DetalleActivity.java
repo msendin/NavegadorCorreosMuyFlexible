@@ -17,6 +17,7 @@ import androidx.fragment.app.FragmentActivity;
 				(FragmentDetalle)getSupportFragmentManager()
 					.findFragmentById(R.id.FrgDetalle);
 		
-		detalle.mostrarDetalle(getIntent().getStringExtra(EXTRA_TEXTO));
+		if (detalle != null)
+		   detalle.mostrarDetalle(getIntent().getStringExtra(EXTRA_TEXTO));
 	}
   }

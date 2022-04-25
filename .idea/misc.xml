@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Montse/AndroidStudioProjects/NavegadorCorreosMuyFlexible/app/src/main/res/layout-large-land/activity_main.xml" value="0.11847389558232932" />
+        <entry key="..\:/Users/Montse/AndroidStudioProjects/NavegadorCorreosMuyFlexible/app/src/main/res/layout-large-port/activity_main.xml" value="0.11577868852459017" />
+        <entry key="..\:/Users/Montse/AndroidStudioProjects/NavegadorCorreosMuyFlexible/app/src/main/res/layout-large/activity_main.xml" value="0.11847389558232932" />
+        <entry key="..\:/Users/Montse/AndroidStudioProjects/NavegadorCorreosMuyFlexible/app/src/main/res/layout/activity_detalle.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/Montse/AndroidStudioProjects/NavegadorCorreosMuyFlexible/app/src/main/res/layout/fragment_detalle.xml" value="0.15353260869565216" />
+      </map>
+    </option>
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.annotation.NonNull" />

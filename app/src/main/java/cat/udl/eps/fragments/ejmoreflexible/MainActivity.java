@@ -7,7 +7,6 @@ import android.view.Menu;
 
 import cat.udl.eps.fragments.ejmoreflexible.FragmentListado.CorreosListener;
 
-;
 
 public class MainActivity extends FragmentActivity implements CorreosListener {
 
@@ -19,8 +18,8 @@ public class MainActivity extends FragmentActivity implements CorreosListener {
 		FragmentListado frgListado
 		      =(FragmentListado)getSupportFragmentManager()
 				.findFragmentById(R.id.FrgListado);
-		
-		frgListado.setCorreosListener(this);
+		if (frgListado != null)
+		    frgListado.setCorreosListener(this);
 	}
 
 	@Override
