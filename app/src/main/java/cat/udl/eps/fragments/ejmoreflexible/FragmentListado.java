@@ -44,11 +44,8 @@ public class FragmentListado extends Fragment {
 	@Override
 	public void onViewCreated(@NonNull View view, @Nullable Bundle state) {
 		super.onViewCreated(view, state);
-		
 		lstListado = requireView().findViewById(R.id.LstListado);
-		
 		lstListado.setAdapter(new AdaptadorCorreos(this));
-		
 		lstListado.setOnItemClickListener((list, view1, pos, id) -> {
 			if (listener!=null) {
 				listener.onCorreoSeleccionado(
@@ -76,7 +73,7 @@ public class FragmentListado extends Fragment {
     	
     	AdaptadorCorreos(FragmentListado fragmentListado) {
     		super(fragmentListado.requireActivity(), R.layout.listitem_correo, datos);
-    		this.context = fragmentListado.getActivity();
+    		this.context = fragmentListado.requireActivity();
     	}
 
     	@androidx.annotation.NonNull
